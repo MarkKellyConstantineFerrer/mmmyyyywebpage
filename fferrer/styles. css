@@ -1,0 +1,24 @@
+body{
+	background-color:violet;
+	}
+h1{
+	color:rgb(162, 122, 83);
+	}
+#p{
+	color:#b2c47e;
+	}
+#p1{
+	color:white;
+}
+#p2{
+	color:yellow;
+}
+#p3{
+	color:orange;
+}
+#p4{
+	color:red;
+}
+#p5{
+	color:green;
+}

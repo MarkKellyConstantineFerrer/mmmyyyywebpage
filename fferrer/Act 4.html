@@ -1,0 +1,133 @@
+<!DOCTYPE htmml>
+<html>
+<style>
+body {
+  background-image:
+url(der.gif);
+}
+</style>
+
+<style>
+table, td {
+  border:1px solid black;
+}
+th{
+background-color: #034f84;
+color: #FDACF6;
+}
+tr{
+background-color: #2517A7;
+color: #F12132;
+}
+</style>
+<body>
+
+<h2>HTML table</h2>
+
+<table> <style="width:100%>
+   <tr>
+     <th>Home</th>
+	 <th>Contact</th>
+	 <th>Acout us</th>
+	 <th>Gallery</th>
+	 <th>Links</th>
+   </tr>
+   <tr>
+     <td>Main</td>
+	 <td>Content</td>
+	 <td>Sub Content1</td>
+	 <td>Sub Content2</td>
+	 <td>Sub Content3</td>
+   </tr>
+   <tr>
+     <td>Manila</td>
+	 <td>Quezon City</td>
+	 <td>Cavite</td>
+	 <td>Marikina</td>
+	 <td>Taguig</td>
+   </tr>
+   <tr>
+     <td>City</td>
+	 <td>City</td>
+	 <td>Cavite</td>
+	 <td>City</td>
+	 <td>Taguig</td>
+   </tr>
+   <tr>
+     <td>Map</td>
+	 <td>Map</td>
+	 <td>Map</td>
+	 <td>Map</td>
+	 <td>Map</td>
+   </tr>
+</table>
+
+
+<table>
+
+<caption>Names</caption>
+
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+		<th>_____</th>
+		<th>_____</th>
+        <th>Points</th>
+    </tr>
+    <tr>
+        <td>Annalyn</td>
+        <td>Mocco</td>
+		<td>_____</td>
+		<td>_____</td>
+        <td>69</td>
+    </tr>
+	 <tr>
+        <td>Chou</td>
+        <td>Phham</td>
+		<td>_____</td>
+		<td>_____</td>
+        <td>59</td>
+    </tr>
+	 <tr>
+        <td>Kento</td>
+        <td>Taro</td>
+		<td>_____</td>
+		<td>_____</td>
+        <td>76</td>
+    </tr>
+	<tr>
+        <td>Lazlo</td>
+        <td>Fern</td>
+		<td>_____</td>
+		<td>_____</td>
+        <td>87</td>
+    </tr>
+
+</table>
+
+<audio id="myaudio" controls autoplay>
+  <source src="night.ogg" type="audio/ogg">
+  <source src="night.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<br /><br />
+<button onclick="toggle(this);">Hide Audio</button>
+
+<script>
+  let toggle = button => {
+     let element = document.getElementById("myaudio");
+     let hidden = element.getAttribute("hidden");
+
+     if (hidden) {
+        element.removeAttribute("hidden");
+        button.innerText = "Hide Audio";
+     } else {
+        element.setAttribute("hidden", "hidden");
+        button.innerText = "Show Audio";
+     }
+  }
+</script>
+
+</body>
+</html>
